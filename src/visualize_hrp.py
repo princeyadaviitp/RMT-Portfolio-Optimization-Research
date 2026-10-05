@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import scipy.cluster.hierarchy as sch
+import numpy as np
 from main import generate_synthetic_data
 
 def plot_dendrogram(prices, title="HRP: Asset Clustering"):
